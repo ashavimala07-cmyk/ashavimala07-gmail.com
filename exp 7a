@@ -1,0 +1,5 @@
+# EX 7a - Copy from one file to another
+output_file = open("OUTPUT.txt", 'w')
+with open("INPUT.txt", 'r') as scan:
+    output_file.write(scan.read())
+output_file.close()
